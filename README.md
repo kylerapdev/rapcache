@@ -68,7 +68,7 @@ gs.info(pairs);
 
 /* Then do things with the values*/
 for(var key in pairs) {
-    gs.print(key + " = " + pairs[key]);
+    gs.info(key + " = " + pairs[key]);
 }
 ```
 
